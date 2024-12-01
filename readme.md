@@ -87,7 +87,7 @@ project/
 3. Start the application:
 
    ```bash
-   node server.js
+   npm run dev
    ```
 
 4. Access the endpoints:
