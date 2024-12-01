@@ -1,0 +1,27 @@
+/* Layout Styles for App */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #edbcbc, #aecae6);
+  margin: 0;
+}
+
+.app-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  max-width: 1000px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Add some margin and center button content */
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+}
