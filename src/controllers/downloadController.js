@@ -3,10 +3,10 @@ const path = require("path");
 const { broadcastProgress } = require("../utils/webSocket");
 
 const filename =
-  "JavaScript_Data_Structures_and_Algorithms__An_Introduction_to_Understanding_and_Implementing_Core_Data_Structure_and_Algorithm_Fundamentals.pdf";
+  "public/JavaScript_Data_Structures_and_Algorithms__An_Introduction_to_Understanding_and_Implementing_Core_Data_Structure_and_Algorithm_Fundamentals.pdf";
 
 exports.downloadFile = (req, res) => {
-  const filePath = path.join(__dirname, "../", filename); // Path to the file
+  const filePath = path.join(__dirname, "../../", filename); // Path to the file
   const stat = fs.statSync(filePath);
   const totalSize = stat.size;
 
